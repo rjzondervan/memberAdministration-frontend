@@ -2,8 +2,6 @@
 
 namespace load;
 
-use DateTime;
-
 class Organisation
 {
     private $id;
@@ -23,7 +21,7 @@ class Organisation
                            int $organisationNumber,
                            string $goal,
                            Address $location,
-                           Member $members
+                           Member $member
 
     )
     {
